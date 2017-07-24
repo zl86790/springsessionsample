@@ -8,7 +8,7 @@ import org.springframework.session.data.redis.config.annotation.web.http.RedisHt
 
 import redis.clients.jedis.JedisPoolConfig;
 
-@EnableRedisHttpSession(maxInactiveIntervalInSeconds = 1)  
+@EnableRedisHttpSession(maxInactiveIntervalInSeconds = 1800)
 public class HttpSessionConfig {
 	
 	
